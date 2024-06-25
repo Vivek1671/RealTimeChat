@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.chat-room {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message-list {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.message-input {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-input input {
+  width: 80%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.user-list {
+  margin-bottom: 20px;
+}
